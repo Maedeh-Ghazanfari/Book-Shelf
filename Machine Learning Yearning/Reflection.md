@@ -2,8 +2,7 @@
 
 ### Key Concepts I Learned:
 - The difference between training/dev/test sets and their role in model tuning.
-- The importance of selecting the dev set and test set from the same distribution.
-
+- I learned the importance of selecting the development (dev) set and test set from the same data distribution to ensure that model evaluation is fair and reliable. This helps prevent biased results and ensures that performance metrics reflect how the model will behave on new, unseen data.
 ### Reflections:
 
 
