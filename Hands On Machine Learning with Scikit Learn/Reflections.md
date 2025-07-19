@@ -5,8 +5,10 @@ This is a personal study repo where I take notes as I work through the book. My 
 
 🎯Types of Noise in Data
 
-+Stochastic Noise: Random variations in data that cannot be explained by input features — also known as irreducible error. It’s unpredictable, not caused by the model, and inherent in real-world data.
-+Rounding Error: A rounding error is a deterministic type of noise that arises due to limitations in how numbers are stored or represented, especially when working with floating-point numbers. Rounding error occurs when a number cannot be represented exactly in the computer's memory, so it gets rounded to the nearest representable value. It’s systematic, meaning it's introduced in a predictable, repeatable way.
+Stochastic Noise: Random variations in data that cannot be explained by input features — also known as irreducible error. It’s unpredictable, not caused by the model, and inherent in real-world data.
+
+
+Rounding Error: A rounding error is a deterministic type of noise that arises due to limitations in how numbers are stored or represented, especially when working with floating-point numbers. Rounding error occurs when a number cannot be represented exactly in the computer's memory, so it gets rounded to the nearest representable value. It’s systematic, meaning it's introduced in a predictable, repeatable way.
 
 Summary of noises:
 1. Stochastic Noise (Irreducible Noise)
