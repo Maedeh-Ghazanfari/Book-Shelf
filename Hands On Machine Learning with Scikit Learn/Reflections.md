@@ -1,4 +1,5 @@
 📘 Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow (2nd Edition) by Aurélien Géron
+
 This is a personal study repo where I take notes as I work through the book. My goal is to better understand ML concepts and build a review-friendly reference for myself and others. Feel free to follow along, fork, or suggest ideas!
 
 🧠 What I’ve learned so far:
