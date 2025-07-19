@@ -1,10 +1,10 @@
 📘 Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow (2nd Edition) by Aurélien Géron
 
-This is a personal study repo where I take notes as I work through the book. My goal is to better understand ML concepts and build a review-friendly reference for myself and others. Feel free to follow along, fork, or suggest ideas!
+This is a personal study repo where I take notes as I work through the book. My goal is to understand ML concepts better and build a review-friendly reference for myself and others. Feel free to follow along, fork, or suggest ideas!
 
 🧠 What I’ve learned so far:
 
-🎯Types of Noise in Data
+🎯Some types of Noise in Data
 
 Stochastic Noise: Random variations in data that cannot be explained by input features — also known as irreducible error. It’s unpredictable, not caused by the model, and inherent in real-world data.
 
