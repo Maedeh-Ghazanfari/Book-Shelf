@@ -10,3 +10,4 @@ Stochastic Noise: Random variations in data that cannot be explained by input fe
 
 
 Rounding Error: A rounding error is a deterministic type of noise that arises due to limitations in how numbers are stored or represented, especially when working with floating-point numbers. Rounding error occurs when a number cannot be represented exactly in the computer's memory, so it gets rounded to the nearest representable value. It’s systematic, meaning it's introduced in a predictable, repeatable way.
+<img width="858" height="381" alt="image" src="https://github.com/user-attachments/assets/30aa8760-443d-44bb-b165-6a0a8b7f3785" />
