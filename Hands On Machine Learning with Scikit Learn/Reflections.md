@@ -18,3 +18,5 @@ Rounding Error: A rounding error is a deterministic type of noise that arises du
 🎯Feature Scaling:
 
 <img width="838" height="293" alt="image" src="https://github.com/user-attachments/assets/74dbb2cb-594c-4c6e-9be7-2a4935615050" />
+
+Always split before normalizing.  Normalize test data using training data stats. If you normalize before splitting, the min and max (or mean and std) used for scaling will be influenced by the test set. That means your test data is "leaking" into your training process — this is called data leakage, and it can lead to unrealistically good performance.
