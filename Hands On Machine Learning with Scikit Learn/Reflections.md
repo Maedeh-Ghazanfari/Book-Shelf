@@ -33,4 +33,42 @@ K-Means Clustering	Uses distances to cluster centers
 PCA	Based on variance/covariance, sensitive to scale
 Neural Networks	Gradient-based; scales improve convergence
 
-*Remember tree based models don't need scaling.
+*Remember, tree-based models don't need scaling.
+
+🎯 Parametric VS non-parametric algorithms:
+
+Parametric (e.g., Linear Regression):
+ 
+You decide the form of the model ahead of time.
+
+Only learn a fixed number of parameters (weights).
+
+May underperform if data doesn't fit the assumed shape (e.g., non-linear trends).
+
+Non-Parametric (e.g., Decision Tree):
+
+No equation assumed.
+
+It learns structure from the data itself (e.g., where to split based on feature values).
+
+Model complexity grows as data grows.
+
+More flexible and can fit complex patterns, but can overfit if not controlled.
+
+Pros for non-parametric:
+
+Non-parametric models are more powerful for:
+
+Capturing non-linear relationships
+
+Working with messy real-world data
+
+Avoiding incorrect assumptions (like “data must be normally distributed”)
+
+Cons:
+
+May need more data to work well
+
+Tend to be slower or more memory-intensive
+
+They are often harder to interpret
