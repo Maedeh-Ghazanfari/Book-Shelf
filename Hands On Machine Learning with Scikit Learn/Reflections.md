@@ -88,3 +88,22 @@ They are often harder to interpret
 
 
 You can usually turn a classification into a soft classification if the model or method can provide class probabilities or scores instead of just hard labels.
+
+🎯Regularization:
+
+When a model learns too well from training data, it may start fitting noise rather than the actual pattern. This causes poor performance on new, unseen data.
+
+Regularization helps by penalizing large weights in the model, encouraging simpler models that generalize better.
+
+Regularization helps by adding a penalty to discourage the model from becoming too complex.
+
+
+| Regularization | Model                  | scikit-learn Class   | Key Parameters           |
+| -------------- | ---------------------- | -------------------- | ------------------------ |
+| L2             | Ridge Regression       | `Ridge`              | `alpha`                  |
+| L1             | Lasso Regression       | `Lasso`              | `alpha`                  |
+| L1 + L2        | Elastic Net            | `ElasticNet`         | `alpha`, `l1_ratio`      |
+| L2 (default)   | Logistic Regression    | `LogisticRegression` | `penalty`, `C`, `solver` |
+| L2             | Support Vector Machine | `SVC`                | `C`, `kernel`            |
+
+
