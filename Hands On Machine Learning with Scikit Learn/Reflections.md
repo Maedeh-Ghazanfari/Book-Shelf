@@ -2,6 +2,8 @@
 
 This is a personal study repo where I take notes as I work through the book. My goal is to understand ML concepts better and build a review-friendly reference for myself and others. Feel free to follow along, fork, or suggest ideas!
 
+* Not all the topics here in the book, but there was something in the book that made me search and study new issues!
+
 🧠 What I’ve learned so far:
 
 🎯Some Types of Noise in Data
@@ -72,3 +74,17 @@ May need more data to work well
 Tend to be slower or more memory-intensive
 
 They are often harder to interpret
+
+🎯Hard classification VS Soft classification:
+
+
+| Aspect               | Hard Classification                     | Soft Classification                                        |
+| -------------------- | --------------------------------------- | ---------------------------------------------------------- |
+| **What it predicts** | A single class label (e.g., “cat”)      | Probabilities for all classes (e.g., “cat: 0.7, dog: 0.3”) |
+| **Output type**      | Discrete, e.g., class 0 or class 1      | Continuous probabilities between 0 and 1                   |
+| **Decision rule**    | Pick the class with highest probability | Use probabilities directly or threshold them               |
+| **Use case**         | When you just want a class prediction   | When you need confidence levels, thresholds, or rankings   |
+| **Example**          | Predict “spam” or “not spam”            | Predict “spam with 85% confidence”                         |
+
+
+You can usually turn a classification into a soft classification if the model or method can provide class probabilities or scores instead of just hard labels.
