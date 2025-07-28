@@ -6,18 +6,18 @@ This is a personal study repo where I take notes as I work through the book. My 
 
 🧠 What I’ve learned so far:
 
-🎯Some Types of Noise in Data
+## Some Types of Noise in Data
 
 Stochastic Noise: Random variations in data that cannot be explained by input features — also known as irreducible error. It’s unpredictable, not caused by the model, and inherent in real-world data.
 
 
 Rounding Error: A rounding error is a deterministic type of noise that arises due to limitations in how numbers are stored or represented, especially when working with floating-point numbers. Rounding error occurs when a number cannot be represented exactly in the computer's memory, so it gets rounded to the nearest representable value. It’s systematic, meaning it's introduced in a predictable, repeatable way.
 
-🎯Plots along with the correlation coefficient between their horizontal and vertical axes:
+## Plots along with the correlation coefficient between their horizontal and vertical axes:
 
 <img width="858" height="381" alt="image" src="https://github.com/user-attachments/assets/30aa8760-443d-44bb-b165-6a0a8b7f3785" />
 
-🎯Feature Scaling:
+## Feature Scaling:
 
 <img width="838" height="293" alt="image" src="https://github.com/user-attachments/assets/74dbb2cb-594c-4c6e-9be7-2a4935615050" />
 
@@ -37,7 +37,7 @@ Neural Networks	Gradient-based; scales improve convergence
 
 *Remember, tree-based models don't need scaling.
 
-🎯 Parametric VS non-parametric algorithms:
+## Parametric VS non-parametric algorithms:
 
 Parametric (e.g., Linear Regression):
  
@@ -75,7 +75,7 @@ Tend to be slower or more memory-intensive
 
 They are often harder to interpret
 
-🎯Hard classification VS Soft classification:
+## Hard classification VS Soft classification:
 
 
 | Aspect               | Hard Classification                     | Soft Classification                                        |
@@ -89,7 +89,7 @@ They are often harder to interpret
 
 You can usually turn a classification into a soft classification if the model or method can provide class probabilities or scores instead of just hard labels.
 
-🎯Regularization:
+## Regularization:
 
 When a model learns too well from training data, it may start fitting noise rather than the actual pattern. This causes poor performance on new, unseen data.
 
